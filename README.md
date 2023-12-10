@@ -43,56 +43,9 @@ A sophisticated radar system works in tandem with the LED lights. It assesses th
 
 
 ## Demo
-1. To run the backend of our application, follow these steps:
+### [Click here to watch the video] ([https://drive.google.com/drive/folders/1xW1XTwPF-ujhIRcMsu30sQzZztjd_cZP?usp=sharing](https://drive.google.com/drive/folders/1dt6nIInAlW2K8bbcrsAtsnESy6heXCes?usp=sharing))
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   pip install -r requirements.txt
-   cd backend
-
-   uvicorn main:app --reload
-   ```
-2. For the frontend, kidnly follow these steps:
-      ```bash
-   cd tsyp
-   npm i
-   npm run dev 
-   ```
-Provide instructions on how to set up the project locally. Include details about installing dependencies and running the application.
-
-3. Setting up MongoDB
-
-You have two options for setting up MongoDB for our application:
-
-#### Option 1: Local MongoDB Installation
-
-1. **Install MongoDB:**
-   - Download and install MongoDB from [MongoDB Download Center](https://www.mongodb.com/try/download/community).
-   - Follow the installation instructions for your operating system.
-
-2. **Create Database and Collections:**
-   - Open a terminal or command prompt.
-   - Run MongoDB by executing the `mongod` command.
-   - In a separate terminal, connect to the MongoDB server using the `mongo` command.
-   - Create the "HealthData" database and the required collections:
-     ```bash
-     use HealthData
-     db.createCollection("Users")
-     db.createCollection("Doctors")
-     ```
-
-### Option 2: Using Docker
-
-1. **Install Docker:**
-   - Download and install Docker from [Docker Desktop](https://www.docker.com/products/docker-desktop).
-
-2. **Run Docker Compose:**
-   - Navigate to the root directory of the project.
-   - Run the following command to start MongoDB using Docker Compose:
-     ```bash
-     docker-compose up
-     ```
-   - This command will pull the MongoDB image and start a container with the necessary configurations.
+### Screenshot:
 
 ### Security 
 

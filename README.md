@@ -3,33 +3,43 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
 - [Project Description](#project-description)
+- [Technologies Used](#technologies-used)
 - [Demo](#demo)
 - [Security](#security)
 - [Demo](#demo)
 
 ## Introduction
 
-During the COVID-19 pandemic, many doctors got worried about being close to their patients. They were afraid of catching or spreading the virus. In response to this concern, our project was created to help doctors and patients connect without being in the same place.
+Step into the future of road safety with our innovative project aimed at creating a safer driving experience for all. Our endeavor revolves around two key components, meticulously designed to enhance Advanced Driver Assistance Systems (ADAS) and elevate the overall safety quotient of vehicles.
 
-In addition, we've incorporated a prototype of a smartwatch that collects health data from the patient. This information is then visualized in the user interface. To ensure the well-being of the user, we've set thresholds for medical data. If a user's data goes beyond these thresholds, the system sends an alert directly via email to the associated doctor. This feature enables prompt attention to any health issues that may arise.
 
-Furthermore, users can make predictions about their heart health using their collected data, providing a convenient way to check their current health status.
 
-For doctors, we've designed a dedicated interface where they can access and review their patients' information. This interface allows doctors to accept or decline new patients, providing a streamlined process for managing their patient load. This feature enhances the overall efficiency of healthcare delivery in the context of remote interactions.
+## Project Description
 
+### Advanced Driver Assistance Systems (ADAS):
+#### Driver Monitoring System (DMS):
+
+The first part of our project features a robust Driver Monitoring System utilizing two computer vision models. The primary model keenly observes the driver's face, detecting signs of drowsiness, distraction, or inattentiveness by monitoring eye and mouth movements. This cutting-edge technology ensures that drivers stay alert and focused during their journeys.
+Upper Body Activity Recognition:
+
+Complementing the DMS, the second computer vision model concentrates on the upper body, detecting activities such as mobile phone usage, drinking, or engaging in distracting behaviors. Upon identifying potential risks, the system activates a sonorous alarm or delivers a voice message, prompting the driver to regain focus and avoid hazardous actions.
+Intelligent Front Lights Upgrade:
+Adaptive LED Lighting System:
+
+As a transformative addition, the project introduces an upgraded front lighting system. By incorporating additional LEDs, precisely four on each side, the illumination becomes adaptive and responsive to the surrounding environment.
+Radar-Assisted Light Adjustment:
+
+A sophisticated radar system works in tandem with the LED lights. It assesses the presence of other vehicles in the vicinity, dynamically adjusting the intensity of the front lights. This intelligent adaptation ensures that the lights reduce their glare when another vehicle approaches, preventing discomfort or distraction for oncoming drivers during nighttime travel.
 
 ## Technologies Used
 
-- **React**:
+- **Ai model**:
 
-  Utilized for the development of our web application and dashboards, providing a dynamic and responsive user interface.
+   AI-driven prediction of driver behavior and drowsiness using advanced model.
+- **Ai computer vision**:
 
-- **PWA (Progressive Web App)**:
-
-  Implemented as a progressive web app to enhance the mobile user experience, allowing users to access the application seamlessly on   various devices.
-
+   Real-time AI computer vision with Raspberry Pi camera for object detection.
 - **FastAPI**:
 
   Employed as the backend framework to power the server-side functionalities of our application, ensuring efficient and high-        performance operations.
@@ -43,23 +53,6 @@ For doctors, we've designed a dedicated interface where they can access and revi
   Integrated to facilitate communication between sensors and the backend, ensuring a reliable and secure exchange of data from the sensors to the server.
 
 ![Project Structure](./project_structure.png)
-
-## Project Description
-
-Our application integrates with various sensors to gather essential health data. Here are the supported sensors:
-
-### MAX30100 (Heart Rate + SpO2 Sensor)
-
-- The MAX30100 sensor is used to measure both heart rate and blood oxygen saturation (SpO2).
-
-### DS18B20 (Temperature Sensor)
-
-- The DS18B20 sensor is employed to measure temperature accurately.
-### MPS20N0040D (Blood Pressure Sensor)
-
-- The MPS20N0040D sensor is utilized to measure blood pressure.
-- It aids in monitoring blood pressure levels, providing crucial information for healthcare assessment.
-
 
 
   

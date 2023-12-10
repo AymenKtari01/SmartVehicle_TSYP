@@ -17,7 +17,7 @@ Step into the future of road safety with our innovative project aimed at creatin
 
 ## Project Description
 
-### Advanced Driver Assistance Systems (ADAS):
+### Advanced Driver Assistance Systems :
 #### Driver Monitoring System (DMS):
 
 The first part of our project features a robust Driver Monitoring System utilizing two computer vision models. The primary model keenly observes the driver's face, detecting signs of drowsiness, distraction, or inattentiveness by monitoring eye and mouth movements. This cutting-edge technology ensures that drivers stay alert and focused during their journeys.
@@ -48,5 +48,14 @@ A sophisticated radar system works in tandem with the LED lights. It assesses th
 ### Screenshots:
 ![406350005_333967132684067_2041807148574253827_n](https://github.com/AymenKtari01/SmartVehicle_TSYP/assets/138572009/f11edc47-885f-4bde-8a74-f39efde9e579)
 ![406674791_1164540538284419_1082566485254084202_n](https://github.com/AymenKtari01/SmartVehicle_TSYP/assets/138572009/f3fd3afc-4787-40bd-8654-4e24e60de6a3)
+### we'used : 
+- **A raspberri pi 4 model B board**
+- **Arduino mega**
+- **Raspberry camera**
+- **Lcd display**
+ - **Servo motor**
+- **VL530X laser distance sensor**
+
+
 
 

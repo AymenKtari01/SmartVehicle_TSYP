@@ -6,8 +6,7 @@
 - [Project Description](#project-description)
 - [Technologies Used](#technologies-used)
 - [Demo](#demo)
-- [Security](#security)
-- [Demo](#demo)
+
 
 ## Introduction
 

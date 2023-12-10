@@ -40,22 +40,7 @@ A sophisticated radar system works in tandem with the LED lights. It assesses th
 - **Ai computer vision**:
 
    Real-time AI computer vision with Raspberry Pi camera for object detection.
-- **FastAPI**:
 
-  Employed as the backend framework to power the server-side functionalities of our application, ensuring efficient and high-        performance operations.
-
-- **MongoDB**:
-
-  Chosen as the database solution to store and manage the application's data, providing flexibility and scalability for handling   diverse information.
-
-- **Mosquitto Broker**:
-
-  Integrated to facilitate communication between sensors and the backend, ensuring a reliable and secure exchange of data from the sensors to the server.
-
-![Project Structure](./project_structure.png)
-
-
-  
 
 ## Demo
 1. To run the backend of our application, follow these steps:

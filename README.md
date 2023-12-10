@@ -45,7 +45,10 @@ A sophisticated radar system works in tandem with the LED lights. It assesses th
 ## Demo
 ### [Click here to watch the video] ([https://drive.google.com/drive/folders/1xW1XTwPF-ujhIRcMsu30sQzZztjd_cZP?usp=sharing](https://drive.google.com/drive/folders/1dt6nIInAlW2K8bbcrsAtsnESy6heXCes?usp=sharing))
 
-### Screenshot:
+### Screenshots:
+![406350005_333967132684067_2041807148574253827_n](https://github.com/AymenKtari01/SmartVehicle_TSYP/assets/138572009/049f
+![406674791_1164540538284419_1082566485254084202_n](https://github.com/AymenKtari01/SmartVehicle_TSYP/assets/138572009/88334eb3-1bbd-427f-accf-b5797cffd2f2)
+e46c-ed04-4ef1-9b8c-730b696fc01e)
 
 ### Security 
 
